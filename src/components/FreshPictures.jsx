@@ -17,7 +17,6 @@ grid-template: 1fr / repeat(4, 1fr);
 box-shadow: 1px 1px 3px gray;
 min-height: 400px;
 justify-content: center;
-margin-top: 2em;
 
 img {
   object-fit: cover;

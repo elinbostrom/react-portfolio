@@ -5,6 +5,7 @@ import styled from 'styled-components'
 export default function StartPage() {
   return (
     <LinkWrapper>
+      <Link to="/">Startpage</Link>
       <Link to="/about-me">About Me</Link>
       <Link to="/images">Pictures</Link>
       <Link to="/contact">Contact</Link>

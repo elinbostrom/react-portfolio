@@ -25,7 +25,6 @@ function App() {
       <Switch>
 
         <Navbar>
-
           <Route path="/about-me">
             <AboutMeSection />
           </Route>

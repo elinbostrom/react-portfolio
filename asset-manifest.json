@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.2532099d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.161980f5.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.161980f5.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/js/2.78158d94.chunk.js": "/react-portfolio/static/js/2.78158d94.chunk.js",
+    "static/js/2.78158d94.chunk.js.map": "/react-portfolio/static/js/2.78158d94.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.a323accb9ed8582a4801d9eed6dbe970.js": "/react-portfolio/precache-manifest.a323accb9ed8582a4801d9eed6dbe970.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.2532099d.chunk.css.map": "/react-portfolio/static/css/main.2532099d.chunk.css.map",
+    "static/js/2.78158d94.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.78158d94.chunk.js.LICENSE.txt",
+    "static/media/5.jpg": "/react-portfolio/static/media/5.18829068.jpg",
+    "static/media/blake-richard-verdoorn-cssvEZacHvQ-unsplash.jpg": "/react-portfolio/static/media/blake-richard-verdoorn-cssvEZacHvQ-unsplash.4369dc3b.jpg",
+    "static/media/boxed-water-is-better-dO2WTawCTC4-unsplash.jpg": "/react-portfolio/static/media/boxed-water-is-better-dO2WTawCTC4-unsplash.60bbe3de.jpg",
+    "static/media/peter-jan-rijpkema-wI6o8OwUwdw-unsplash.jpg": "/react-portfolio/static/media/peter-jan-rijpkema-wI6o8OwUwdw-unsplash.6bed7b2d.jpg",
+    "static/media/v2osk-1Z2niiBPg5A-unsplash.jpg": "/react-portfolio/static/media/v2osk-1Z2niiBPg5A-unsplash.60b480ff.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/js/2.78158d94.chunk.js",
+    "static/css/main.2532099d.chunk.css",
+    "static/js/main.161980f5.chunk.js"
+  ]
+}

@@ -23,10 +23,13 @@ cursor: pointer;
 }
 `
 
-export default function Navbar() {
+export default function Navbar({ children }) {
   return (
-    <NavigationMenu>
-      <NavigationLink linkToLeft="auto" href="/">Elin Boström</NavigationLink>
-    </NavigationMenu>
+    <>
+      <NavigationMenu>
+        <NavigationLink linkToLeft="auto" href="/">Elin Boström</NavigationLink>
+      </NavigationMenu>
+      {children}
+    </>
   )
 }

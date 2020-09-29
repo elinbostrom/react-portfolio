@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
 import styled from 'styled-components'
+import { Switch, Route } from 'react-router-dom';
 
 // * Components
 import Navbar from './components/Navbar'
 import AboutMeSection from './components/AboutMeSection'
 import FreshPictures from './components/FreshPictures'
 import SocialMediaLinks from './components/SocialMediaLinks'
+import StartPage from './components/StartPage'
 
 // * Styled components
 
@@ -20,10 +22,28 @@ height: 100vh;
 function App() {
   return (
     <AppBody>
-      <Navbar />
-      <AboutMeSection />
-      <FreshPictures />
-      <SocialMediaLinks />
+      <Switch>
+
+        <Navbar>
+
+          <Route path="/about-me">
+            <AboutMeSection />
+          </Route>
+
+          <Route path="/images">
+            <FreshPictures />
+          </Route>
+
+          <Route path="/contact">
+            <SocialMediaLinks />
+          </Route>
+
+          <Route path="/">
+            <StartPage />
+          </Route>
+        </Navbar>
+
+      </Switch>
     </AppBody>
   );
 }
